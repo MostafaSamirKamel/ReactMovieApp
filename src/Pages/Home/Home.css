@@ -1,0 +1,31 @@
+.home-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0d0d0d 0%, #1a1a2e 50%, #0d0d0d 100%);
+}
+
+.movies-section {
+  padding: 40px 0;
+}
+
+.section-title {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-title i {
+  color: #e50914;
+}
+
+.section-title::after {
+  content: '';
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(90deg, #e50914, transparent);
+  margin-left: 20px;
+}

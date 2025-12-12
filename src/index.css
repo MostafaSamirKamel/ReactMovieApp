@@ -1,0 +1,4 @@
+/* Ensure toast notifications appear above all elements */
+.Toastify__toast-container {
+  z-index: 99999 !important;
+}
